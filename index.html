@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za vlasnike apartmana, soba i malih hotela u Srbiji: odgovori gostima u Viberu, WhatsAppu i Instagramu u svako doba i rezervacija sa avansom.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Rezervacije 24/7</a></div>
-  <nav class="top"><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Rezervacije 24/7</a>
+  <nav><a href="#sta" data-ev="click_nav_sta">Šta dobijate</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Početak</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Gost piše u ponoć — odgovor, slobodni termini i rezervacija sa avansom stižu odmah</h1>
-    <p class="sub">Za vlasnike apartmana, soba i malih hotela u Srbiji: upiti gostiju u Viberu, WhatsAppu i Instagramu dobijaju odgovor 24 sata dnevno — na srpskom, engleskom i jeziku gosta, sa slobodnim terminima, uslovima boravka i rezervacijom sa avansom.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Ovo mi treba</a>
-    <p class="cta-note">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za vlasnike apartmana</p>
+      <h1 class="rise" style="--i:1" data-len="long">Gost piše u ponoć&nbsp;<span class="soft">— odgovor, slobodni termini i rezervacija sa avansom stižu odmah</span></h1>
+      <p class="rise" style="--i:2">Za vlasnike apartmana, soba i malih hotela u Srbiji: upiti gostiju u Viberu, WhatsAppu i Instagramu dobijaju odgovor 24 sata dnevno — na srpskom, engleskom i jeziku gosta, sa slobodnim terminima, uslovima boravka i rezervacijom sa avansom.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Ovo mi treba</a>
+      <p class="meta rise" style="--i:4">Rani pristup · Na ovoj stranici još se ne prima plaćanje</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" font-weight="600" fill="#0a1524">Odgovori 24/7</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="44" height="44" rx="8" fill="#12397a" /><text x="190" y="282" font-size="32" fill="#0a1524">Slobodni termini</text><rect x="120" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="402" font-size="32" fill="#0a1524">Jezik gosta</text><rect x="120" y="490" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="522" font-size="32" fill="#0a1524">link za avans</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="34" font-weight="600" fill="#0a1524">Viber</text><rect x="730" y="370" width="280" height="28" rx="8" fill="#ffffff" /><rect x="730" y="430" width="200" height="28" rx="8" fill="#b9c3d2" /><rect x="730" y="490" width="300" height="28" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="730" y="550" width="160" height="28" rx="8" fill="#dde2ea" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Za</dt><dd>Vlasnike apartmana</dd></div>
+      <div><dt>Odgovor</dt><dd>Odgovor gostu</dd></div>
+      <div><dt>Kako</dt><dd>Iz vašeg kalendara</dd></div>
+      <div><dt>Pristup</dt><dd>Rani pristup</dd></div>
+    </dl>
+  </section>
 
   <section id="sta" data-view="features_view">
-    <h2>Šta dobijate</h2>
-    <div class="grid">
-      <div class="card"><b>Odgovori 24/7</b><span>Odgovor gostu u Viberu, WhatsAppu i Instagramu u svako doba.</span><br><a class="btn" href="price.html" data-ev="feature_odgovori">Ovo mi treba</a></div>
-      <div class="card"><b>Jezik gosta</b><span>Srpski, engleski i jezici gostiju — gost piše kako mu odgovara.</span><br><a class="btn" href="price.html" data-ev="feature_jezici">Ovo mi treba</a></div>
-      <div class="card"><b>Slobodni termini</b><span>Odgovor iz vašeg kalendara, bez duple rezervacije.</span><br><a class="btn" href="price.html" data-ev="feature_termini">Ovo mi treba</a></div>
-      <div class="card"><b>Rezervacija sa avansom</b><span>Gost dobija uslove i link za avans, rezervacija ulazi u kalendar.</span><br><a class="btn" href="price.html" data-ev="feature_avans">Ovo mi treba</a></div>
+    <div class="stack"><h2>Šta dobijate</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="34" font-weight="600" fill="#0a1524">Odgovori 24/7</text><text x="100" y="170" font-size="30" fill="#566174">Odgovor gostu</text><rect x="250" y="230" width="300" height="280" rx="36" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="272" y="258" width="256" height="170" rx="12" fill="#dfe8f7" /><rect x="292" y="284" width="180" height="28" rx="8" fill="#ffffff" /><rect x="292" y="328" width="140" height="22" rx="8" fill="#b9c3d2" /><circle cx="400" cy="468" r="16" fill="#12397a" /></svg></div>
+        <h3>Odgovori 24/7</h3><p>Odgovor gostu u Viberu, WhatsAppu i Instagramu u svako doba.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_odgovori">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="34" font-weight="600" fill="#0a1524">Slobodni termini</text><text x="100" y="170" font-size="30" fill="#566174">iz vašeg kalendara</text><rect x="120" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="320" width="110" height="72" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Jezik gosta</h3><p>Srpski, engleski i jezici gostiju — gost piše kako mu odgovara.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_jezici">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Jezik gosta</text><text x="100" y="185" font-size="30" fill="#566174">Srpski, engleski</text><line x1="120" y1="480" x2="660" y2="480" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="320" width="70" height="160" fill="#dfe8f7" /><rect x="280" y="250" width="70" height="230" fill="#12397a" /><rect x="400" y="360" width="70" height="120" fill="#b9c3d2" /><rect x="520" y="290" width="70" height="190" fill="#dde2ea" /></svg></div>
+        <h3>Slobodni termini</h3><p>Odgovor iz vašeg kalendara, bez duple rezervacije.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_termini">Ovo mi treba</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Rezervacija sa avansom</text><text x="100" y="185" font-size="30" fill="#566174">link za avans</text><rect x="100" y="250" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="262" width="340" height="24" rx="8" fill="#dde2ea" /><polyline points="112,276 122,286 138,266" fill="none" stroke="#12397a" stroke-width="4" /><rect x="100" y="340" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="352" width="270" height="24" rx="8" fill="#dde2ea" /><polyline points="112,366 122,376 138,356" fill="none" stroke="#12397a" stroke-width="4" /><rect x="100" y="430" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="442" width="200" height="24" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Rezervacija sa avansom</h3><p>Gost dobija uslove i link za avans, rezervacija ulazi u kalendar.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_avans">Ovo mi treba</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Primer (izmišljeni podaci)</h2>
-    <p class="fine">Vlasnica tri apartmana na Zlatiboru. U 23:40 na Viber stiže upit iz Novog Sada: apartman za četvoro, petak–nedelja. Odgovor stiže odmah — slobodan je apartman sa dve spavaće sobe, cena za dve noći i link za avans. Ujutru vlasnica vidi novu rezervaciju u kalendaru i celu prepisku.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primer</h2>
+      <p>Vlasnica tri apartmana na Zlatiboru. U 23:40 na Viber stiže upit iz Novog Sada: apartman za četvoro, petak–nedelja. Odgovor stiže odmah — slobodan je apartman sa dve spavaće sobe, cena za dve noći i link za avans. Ujutru vlasnica vidi novu rezervaciju u kalendaru i celu prepisku.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izaberite paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">na Viber</text><text x="600" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">link za avans</text><text x="960" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">u kalendaru</text><rect x="120" y="300" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">novu rezervaciju</text><rect x="170" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="370" y="450" width="64" height="64" rx="10" fill="#12397a" /><rect x="470" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="570" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="670" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><text x="170" y="600" font-size="32" fill="#566174">celu prepisku</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako radi</h2>
-    <p>U Srbiji je u avgustu 2025. godine bilo evidentirano preko 29.000 smeštajnih objekata, od toga više od 16.000 apartmana. Najveći deo vode sami vlasnici ili porodice, a gosti im se sve češće javljaju direktno — u Viberu, koji je u Srbiji najkorišćenija aplikacija za poruke, u WhatsAppu ili u Instagramu.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako radi</h2></div>
+    <div class="stack">
+      <p>U Srbiji je u avgustu 2025. godine bilo evidentirano preko 29.000 smeštajnih objekata, od toga više od 16.000 apartmana. Najveći deo vode sami vlasnici ili porodice, a gosti im se sve češće javljaju direktno — u Viberu, koji je u Srbiji najkorišćenija aplikacija za poruke, u WhatsAppu ili u Instagramu.</p>
     <p>Vlasnik apartmana odgovara na te poruke sam, između čišćenja, predaje ključeva i posla. Upit koji stigne kasno uveče ili dok je vlasnik zauzet ostaje bez odgovora, a gost rezerviše tamo gde su mu prvi odgovorili, često preko platforme koja naplaćuje proviziju.</p>
     <p>Servis odgovara na te upite umesto vas, 24 sata dnevno. Jednom unesete smeštajne jedinice, cene po sezonama i uslove — doručak, parking, kućni ljubimci, vreme dolaska — i povežete svoj Viber, WhatsApp i Instagram. Gost piše kao i obično i odmah dobija odgovor na jeziku na kojem je pisao.</p>
     <p>Odgovor se zasniva na vašem kalendaru. Servis vidi koji su apartmani ili sobe slobodni za tražene datume, navodi cenu za ceo boravak i uslove, a ako je sve zauzeto, nudi najbliže slobodne termine. Dve rezervacije za istu jedinicu u istoj noći neće biti.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Direktna rezervacija bez platforme je rezervacija bez provizije. Svaka noć koju je gost rezervisao direktno ostavlja vlasniku više novca, a gosti kojima je brzo odgovoreno rado se vraćaju i preporučuju smeštaj prijateljima.</p>
     <p>Ako u objektu radi više ljudi — vlasnik, član porodice, osoba koja predaje ključeve — svi vide istu prepisku i iste rezervacije. Nema prosleđivanja snimaka ekrana i pitanja da li je neko već odgovorio gostu iz Beograda: sve je u jednom prozoru, sa istorijom prethodnih boravaka stalnih gostiju.</p>
     <p>Povezivanje traje jedno veče: jedinice i cene, uslovi boravka i povezivanje aplikacija za poruke. Servis je namenjen apartmanima, sobama, vilama i malim hotelima. Trenutno je u pripremi: prvo proveravamo da li je vlasnicima potreban. Cene, uslovi i odgovornost prema gostu ostaju na vlasniku.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pitanja i odgovori</h2>
-    <h3>U kojim aplikacijama rade odgovori?</h3>
-    <p>U Viberu, WhatsAppu i Instagramu koje povežete sa servisom.</p>
-    <h3>Na kojim jezicima servis odgovara?</h3>
-    <p>Na srpskom, engleskom i na jeziku na kojem gost piše.</p>
-    <h3>Kako izbeći dve rezervacije za isti apartman?</h3>
-    <p>Odgovori se zasnivaju na vašem kalendaru: zauzeti datumi se gostima ne nude.</p>
-    <h3>Šta ako gost postavi neobično pitanje?</h3>
-    <p>Servis ga prosleđuje vlasniku i javlja gostu da će vlasnik odgovoriti lično.</p>
-    <h3>Mogu li već da ga koristim?</h3>
-    <p>Još ne. Servis je u pripremi i proveravamo da li je vlasnicima smeštaja potreban.</p>
+    <div class="stack"><h2>Pitanja i odgovori</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>U kojim aplikacijama rade odgovori?</h3><p>U Viberu, WhatsAppu i Instagramu koje povežete sa servisom.</p></div>
+      <div class="split flip"><h3>Na kojim jezicima servis odgovara?</h3><p>Na srpskom, engleskom i na jeziku na kojem gost piše.</p></div>
+      <div class="split flip"><h3>Kako izbeći dve rezervacije za isti apartman?</h3><p>Odgovori se zasnivaju na vašem kalendaru: zauzeti datumi se gostima ne nude.</p></div>
+      <div class="split flip"><h3>Šta ako gost postavi neobično pitanje?</h3><p>Servis ga prosleđuje vlasniku i javlja gostu da će vlasnik odgovoriti lično.</p></div>
+      <div class="split flip"><h3>Mogu li već da ga koristim?</h3><p>Još ne. Servis je u pripremi i proveravamo da li je vlasnicima smeštaja potreban.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodajte svoj smeštaj</h2>
-    <p><label>Broj smeštajnih jedinica<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izaberite —</option><option>1</option><option>2–5</option><option>6–20</option><option>Više od 20</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodajte svoj smeštaj</h2>
+    </div>
+    <div class="tile stack">
+      <label>Broj smeštajnih jedinica<select data-ev-focus="form_start"><option value="">— izaberite —</option><option>1</option><option>2–5</option><option>6–20</option><option>Više od 20</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Rezervacije 24/7</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Politika privatnosti</a></p>
-  <p class="muted">Servis odgovora gostima i rezervacija za vaš smeštaj. Cene, uslovi i odgovornost prema gostu ostaju na vlasniku.</p>
+  <p>Servis odgovora gostima i rezervacija za vaš smeštaj. Cene, uslovi i odgovornost prema gostu ostaju na vlasniku.</p>
 </div></footer>
 
 </body>
